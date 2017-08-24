@@ -1,22 +1,47 @@
 .home-image {
-display: block;
-  width: 100%;
+display: inline;
+  width: 80%;
   height: auto;
-  margin: 2rem;
+  margin: 9rem;
   padding: 0.625rem;
-  align: center
+  vertical-align: middle
+}
+
+.h2 {
+    margin: 0 0 30px;
+    padding-bottom: 30px;
+    position: relative;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    /*text-transform: uppercase;*/
+    /*display:inline;*/
+    /*padding: inherit;*/
+    /*text-transform: uppercase;*/
 }
 
 .caption-content {
   display: flex;
   height: auto;
-  margin: 2rem;
-  padding: 10rem;
+  /*margin: 20rem;*/
+  padding-top: 20rem;
+  padding-left: 5rem;
   align-items: center;
+  vertical-align: middle;
 }
 
 .navbar-img {
   width: 100%;
   height: auto;
   /*margin: 2rem;*/
+}
+
+.requestButton {
+  background: #FFFFFF ;
+  box-shadow: 1px 3px 5px 0 rgba(0,0,0,0.50);
+  border-radius: 57px;
+  /* Request a Filter Copy: */
+  font-family: AvenirNext-Medium;
+  font-size: 1em;
+  color: #000000 ;
 }

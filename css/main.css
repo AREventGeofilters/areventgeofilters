@@ -16,7 +16,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Helvetica Neue', Helvetica ;
+    font-family: 'Avenir Next' !important ;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -49,7 +49,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Helvetica Neue', Helvetica;
+    font-family: 'Avenir Next', !important;
     color: #252525;
 }
 
@@ -279,8 +279,11 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    box-shadow: #000000;
+
+    /*change this*/
+
     padding: 1rem 0;
 }
 
@@ -296,7 +299,7 @@ h1.navbar-brand {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: #000000;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -391,19 +394,19 @@ img {
 
 .caption-content h2 {
     color: #000000;
-    font-size: 54px;
+    font-size: 30px;
     font-weight: 400;
-    text-transform: uppercase;
-    display:inline-block
-    padding: inherit;
+    /*text-transform: uppercase;*/
+    /*display:inline;*/
+    /*padding: inherit;*/
 }
 
 .caption-content > span {
 
     color: #000000;
-    display: block;
-    text-align: center;
-    font-size: 24px;
+    /*display: ;*/
+    text-align: left;
+    font-size: 40px;
     text-transform: capitalize;
 }
 
@@ -1181,6 +1184,8 @@ textarea.form-control {
 /* portfolio */
     figcaption.mask {
         bottom: -151px;
+
+
     }
 
     .testimonial-item > div:after {
@@ -1196,6 +1201,11 @@ textarea.form-control {
 @media (min-width: 768px) and (max-width: 979px) {
 
 /* home slider  */
+
+    .home-image img:first-child{
+      display:none;
+      }
+
     .caption-content h2 {
         font-size: 40px;
     }
@@ -1253,6 +1263,11 @@ textarea.form-control {
 
 @media only screen and (max-width: 767px) {
 
+
+  .home-image img:first-child{
+    display:none;
+  }
+
     body {
         font-size: 14px;
     }
@@ -1262,7 +1277,7 @@ textarea.form-control {
     }
 
     .sec-title h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .sec-title h2:after {
@@ -1271,17 +1286,27 @@ textarea.form-control {
 
 /*navigation*/
     .navbar-inverse .navbar-toggle {
-        border-color: #fff;
+        border-color: #000000;
+
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #000000;
     }
 
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
-        background-color: transparent;
+        background-color: black;
+    }
+
+    .navbar-inverse .navbar-toggle:hover .icon-bar,
+    .navbar-inverse .navbar-toggle:focus .icon-bar {
+      background-color: white;
     }
 
 /* slider */
     .caption-content h2 {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .caption-content > span {
@@ -1392,12 +1417,15 @@ textarea.form-control {
     }
 }
 
-
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  .home-image img:first-child{
+    display:none;
+  }
 
     .sec-title h2:after {
         left: 38%;
