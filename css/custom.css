@@ -1,0 +1,22 @@
+.home-image {
+display: block;
+  width: 100%;
+  height: auto;
+  margin: 2rem;
+  padding: 0.625rem;
+  align: center
+}
+
+.caption-content {
+  display: flex;
+  height: auto;
+  margin: 2rem;
+  padding: 10rem;
+  align-items: center;
+}
+
+.navbar-img {
+  width: 100%;
+  height: auto;
+  /*margin: 2rem;*/
+}
