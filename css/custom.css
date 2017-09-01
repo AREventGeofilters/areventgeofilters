@@ -7,6 +7,11 @@ display: inline;
   vertical-align: middle
 }
 
+.navbar-nav {
+  /*font-size: 22px;*/
+  font-weight: 500;
+}
+
 .h2 {
     margin: 0 0 30px;
     padding-bottom: 30px;
@@ -38,8 +43,23 @@ display: inline;
 
 .requestButton {
   background: #FFFFFF ;
+  outline: none;
   box-shadow: 1px 3px 5px 0 rgba(0,0,0,0.50);
   border-radius: 57px;
+  text-decoration: none;
+  /* Request a Filter Copy: */
+  font-family: AvenirNext-Medium;
+  font-size: 1em;
+  color: #000000 ;
+  list-style-type: none;
+}
+
+.requestButton2 {
+  background: #fffc00 ;
+  outline: none;
+  box-shadow: 1px 3px 5px 0 rgba(0,0,0,0.50);
+  border-radius: 57px;
+  text-decoration: none;
   /* Request a Filter Copy: */
   font-family: AvenirNext-Medium;
   font-size: 1em;
