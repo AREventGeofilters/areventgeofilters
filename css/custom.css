@@ -1,10 +1,52 @@
+
+
+
+div.abt_caption {
+    display: block;
+}
+
+p.abt_us {
+  margin: 1em;
+  display: block;
+  float: left;
+  clear: both;
+}
+
+img.circular_brdr {
+  display: inline-block;
+  border-radius:50%;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  margin: 1em;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+div.row.headshot_div {
+  padding: 1em;
+  text-align: center;
+}
+
+body {
+  padding-top: 100px;
+}
+
+div.fullimg {
+  padding: 1em;
+}
+
+div.sl-slider-wrapper {
+  padding-bottom: 1em;
+  left: 5em
+}
+
 .home-image {
-display: inline;
-  width: 80%;
+  margin: 1em;
+  display: inline;
+  width: 50%;
   height: auto;
-  margin: 9rem;
-  padding: 0.625rem;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .navbar-nav {
